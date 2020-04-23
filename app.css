@@ -1,0 +1,17 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* allows body to take up 100 of the view height */
+	height: 100vh;
+	background-color: black;
+}
+
+h1 {
+	font-size: 15rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.letter {
+	transition: color 1000ms;
+}
